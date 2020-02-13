@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/* border: 1px solid grey; */
 }
 
 html, body {
@@ -64,3 +65,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav{
+	display: inline-block;
+	width: 100%;
+	color: grey;
+}
+div.logo{
+	display: inline-block;
+	margin-left: 26%;
+}
+div.header{
+	display: inline-block;
+	width: 95%;
+	margin: 2%;
+}
+div.h1{
+	display: inline-block;
+	margin: 8%;
+	width: 43%;
+	text-align: center;
+	font-size: 35px;
+}
+div.header img{
+	display: inline-block;
+	width: 30%;
+	margin-left: 2%;
+	margin-top: 3%;
+}
+div.middle{
+	display: inline-block;
+	width: 100%;
+}
+div.features{
+	display: inline-block;
+	width: 50%;
+}
+div.about{
+	display: inline-block;
+	width: 50%;
+	margin-left: 50%;
+}
+img.middle-img{
+	width: 100%;
+}
+
+div.bottom{
+	display: inline-block;
+	width: 100%;
+}
+div.services{
+	display: inline-block;
+	width: 33%;
+	height: 40%;
+}
+div.product{
+	display: inline-block;
+	width: 33%;
+	height: 40%;
+}
+div.vision{
+	display: inline-block;
+	width: 32%;
+	height: 40%;
+}
+footer{
+	text-align: center;
+	margin: 10%;
+}
